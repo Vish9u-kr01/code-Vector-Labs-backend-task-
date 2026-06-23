@@ -9,7 +9,7 @@ async function main() {
   const app = createApp();
 
   app.listen(PORT, () => {
-    console.log(`API server listening on https://product-browser-frontend-iota.vercel.app/:${PORT}`);
+    console.log(`API server listening on http://localhost:${PORT}`);
   });
 }
 
